@@ -20,7 +20,7 @@ const contactInfo = [
     icon: Phone,
     label: 'Phone',
     value: '+977',
-    href: 'tel:+977'
+    href: 'tel:'
   },
   {
     icon: MapPin,
