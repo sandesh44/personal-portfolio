@@ -26,7 +26,7 @@ export default function HeroSection() {
             <div className="relative inline-block">
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl mx-auto">
                 <Image
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="logo.jpg"
                   alt="John Doe"
                   width={160}
                   height={160}

@@ -6,8 +6,8 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
 const skills = [
-  'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Python',
-  'PostgreSQL', 'MongoDB', 'AWS', 'Docker', 'Git', 'Figma'
+  'JavaScript', 'TypeScript', 'Laravel', 'Express', 'Next.js', 'Node.js', 'Python',
+  'PostgreSQL', 'PHP', 'MongoDB', 'VPS', 'Docker', 'Git', 'CI/CD',
 ];
 
 const services = [
@@ -35,16 +35,16 @@ const services = [
 
 const education = [
   {
-    year: '2020-2024',
-    degree: 'Bachelor of Computer Science',
-    school: 'University of Technology',
+    year: '2017-2021',
+    degree: '(Hons) Bachelor of Computer Science',
+    school: 'Infrastructure University',
     description: 'Specialized in Software Engineering and Web Development'
   },
   {
     year: '2023',
-    degree: 'AWS Cloud Practitioner',
-    school: 'Amazon Web Services',
-    description: 'Certified in cloud computing fundamentals and AWS services'
+    degree: 'Cloud Practitioner & Deployment & Hosting',
+    school: 'Self Taught',
+    description: 'Expert in cloud computing fundamentals and AWS services'
   }
 ];
 
@@ -61,7 +61,7 @@ export default function AboutSection() {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            I'm a passionate full-stack developer with 3+ years of experience creating 
+            I'm a passionate full-stack developer with 4+ years of experience creating 
             digital solutions that make a difference.
           </p>
         </motion.div>
