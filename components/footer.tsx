@@ -6,7 +6,7 @@ import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 const socialLinks = [
   { icon: Github, href: 'https://github.com', label: 'GitHub' },
   { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Mail, href: 'mailto:john.doe@example.com', label: 'Email' }
+  { icon: Mail, href: 'mailto:sandesh.shrestha407@gmail.com', label: 'Email' }
 ];
 
 export default function Footer() {
@@ -39,7 +39,7 @@ export default function Footer() {
 
           <div className="space-y-2">
             <p className="text-muted-foreground">
-              © 2024 John Doe. All rights reserved.
+              © 2025 Sandesh Shrestha. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground flex items-center justify-center gap-1">
               Built with <Heart className="w-4 h-4 text-red-500" /> using Next.js & Tailwind CSS

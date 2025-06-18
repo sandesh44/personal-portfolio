@@ -13,19 +13,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'john.doe@example.com',
-    href: 'mailto:john.doe@example.com'
+    value: 'sandesh.shrestha407@gmail.com',
+    href: 'mailto:sandesh.shrestha407@gmail.com'
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+1 (555) 123-4567',
-    href: 'tel:+15551234567'
+    value: '+977',
+    href: 'tel:+977'
   },
   {
     icon: MapPin,
     label: 'Location',
-    value: 'San Francisco, CA',
+    value: 'Dhulikhel, Nepal',
     href: 'https://maps.google.com'
   }
 ];
