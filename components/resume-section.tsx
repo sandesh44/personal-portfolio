@@ -9,20 +9,30 @@ import { Badge } from '@/components/ui/badge';
 const experiences = [
   {
     title: 'Senior Frontend Developer',
-    company: 'TechCorp Solutions',
-    period: '2022 - Present',
+    company: 'Infotraid Technology Pvt. Ltd',
+    period: '2024 Aug - Present',
     description: 'Led development of responsive web applications using React and Next.js. Collaborated with design teams to implement pixel-perfect UI components.',
     achievements: [
       'Improved page load speed by 40%',
-      'Led team of 3 junior developers',
+      'Led team of 5 junior developers',
       'Implemented automated testing resulting in 25% fewer bugs'
     ]
   },
   {
-    title: 'Full Stack Developer',
-    company: 'StartupXYZ',
-    period: '2021 - 2022',
-    description: 'Built and maintained full-stack applications using MERN stack. Worked in agile environment with cross-functional teams.',
+    title: 'Mid Software Engineer',
+    company: 'Spices Research & Consulting Pvt. Ltd',
+    period: '2024 feb - 2024 june',
+    description: 'Built and maintained full-stack applications using Laravel. Worked in agile environment with cross-functional teams.',
+    achievements: [
+      'Developed and Maintained full-stack applications',
+      'Applied best practices in code quality and performance',
+    ]
+  },
+    {
+    title: 'Mid Software Engineer',
+    company: 'Jaruwa Nepal',
+    period: '2022 jan - 2024 feb',
+    description: 'Built and maintained full-stack applications using Laravel and Express. Worked in agile environment with cross-functional teams.',
     achievements: [
       'Developed 5+ full-stack applications',
       'Reduced API response time by 60%',
@@ -30,9 +40,8 @@ const experiences = [
     ]
   },
   {
-    title: 'Frontend Developer',
-    company: 'WebAgency Pro',
-    period: '2020 - 2021',
+    title: 'Junior Web Developer',
+    company: 'Voculssoft pvt ltd',
     description: 'Created responsive websites and web applications for various clients. Focused on performance optimization and user experience.',
     achievements: [
       'Delivered 15+ client projects',
@@ -53,8 +62,8 @@ export default function ResumeSection() {
   const handleDownloadResume = () => {
     // In a real application, this would trigger a download of the actual resume PDF
     const link = document.createElement('a');
-    link.href = '/resume-john-doe.pdf'; // This would be the path to your actual resume
-    link.download = 'John-Doe-Resume.pdf';
+    link.href = '/resume-sandesh-shrestha.pdf'; // This would be the path to your actual resume
+    link.download = 'Sandesh-Shrestha-Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -151,13 +160,13 @@ export default function ResumeSection() {
               <Card className="hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="p-6 space-y-4">
                   <div>
-                    <h4 className="font-semibold text-primary">Bachelor of Computer Science</h4>
-                    <p className="font-medium">University of Technology</p>
-                    <Badge variant="outline" className="mt-2">2020 - 2024</Badge>
+                    <h4 className="font-semibold text-primary">(Hons) Bachelor of Computer Science</h4>
+                    <p className="font-medium">Infrasturcture University</p>
+                    <Badge variant="outline" className="mt-2">2017 - 2021</Badge>
                   </div>
                   <p className="text-sm text-muted-foreground">
                     Specialized in Software Engineering and Web Development. 
-                    Graduated Magna Cum Laude with a 3.8 GPA.
+                    Graduated with a 3 GPA.
                   </p>
                 </CardContent>
               </Card>
