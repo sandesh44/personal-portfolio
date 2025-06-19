@@ -15,7 +15,7 @@ const projects = [
     image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'AWS'],
     github: 'https://github.com',
-    demo: 'https://demo.com',
+    demo: '#',
     featured: true
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     image: 'https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['Next.js', 'TypeScript', 'Prisma', 'Socket.io', 'Tailwind'],
     github: 'https://github.com',
-    demo: 'https://demo.com',
+    demo: '#',
     featured: true
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['Python', 'React', 'TensorFlow', 'D3.js', 'FastAPI'],
     github: 'https://github.com',
-    demo: 'https://demo.com',
+    demo: '#',
     featured: true
   },
   {
@@ -55,7 +55,7 @@ const projects = [
     image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['React Native', 'OpenWeather API', 'Maps API'],
     github: 'https://github.com',
-    demo: 'https://demo.com',
+    demo: '#',
     featured: false
   },
   {
@@ -65,7 +65,7 @@ const projects = [
     image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
     github: 'https://github.com',
-    demo: 'https://demo.com',
+    demo: '#',
     featured: false
   }
 ];
