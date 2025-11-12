@@ -62,7 +62,7 @@ export default function ResumeSection() {
   const handleDownloadResume = () => {
     // In a real application, this would trigger a download of the actual resume PDF
     const link = document.createElement('a');
-    link.href = '/resume-sandesh-shrestha.pdf'; // This would be the path to your actual resume
+    link.href = '/sandesh-shrestha.pdf'; // This would be the path to your actual resume
     link.download = 'Sandesh-Shrestha-Resume.pdf';
     document.body.appendChild(link);
     link.click();
